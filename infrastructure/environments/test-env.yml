@@ -1,0 +1,10 @@
+channels:
+  - conda-forge
+dependencies:
+  - # Manually add direct dependencies.
+platforms: # This is non-standard and recommended by conda-lock.
+  - linux-64
+  # - linux-aarch64 # aka arm64, use for Docker on Apple Silicon
+  # - osx-64
+  # - win-64
+  - osx-arm64 # For Apple Silicon, e.g. M1/M2
