@@ -1,0 +1,14 @@
+{
+    "project_name": "my_project",
+    "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "application_name": "{{ cookiecutter.repo_name }}",
+    "description": "A short description of the project.",
+    "open_source_license": ["MIT", "BSD-3-Clause", "No license file"],
+    "python_version": "3.10",
+    "docker_base_image": "continuumio/miniconda3:22.11.1",
+    "default_deployment_branch": "main",
+    "developer_email": "",
+    "aws_ecr_region": "",
+    "aws_ecr_registry": "",
+    "aws_ecr_gui_url": ""
+}

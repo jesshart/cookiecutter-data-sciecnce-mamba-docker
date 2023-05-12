@@ -1,7 +1,7 @@
 channels:
   - conda-forge
 dependencies:
-  - # Manually add direct dependencies.
+  - {{ cookiecutter.python_version }}
 platforms: # This is non-standard and recommended by conda-lock.
   - linux-64
   # - linux-aarch64 # aka arm64, use for Docker on Apple Silicon

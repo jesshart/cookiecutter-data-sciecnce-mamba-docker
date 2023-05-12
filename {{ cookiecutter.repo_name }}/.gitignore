@@ -1,0 +1,10 @@
+# OSX Junk
+.DS_Store
+
+# Test Cache
+.cache/*
+tests/__pycache__/*
+*.pytest_cache/
+
+# Local Files
+ignore.ipynb
